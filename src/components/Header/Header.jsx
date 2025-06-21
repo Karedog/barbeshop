@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image";
-import imgLogo from "./imgLogo"
+import imgLogo from "../../../public/barbearia.png"
 import { useState } from "react";
 
 export default function Header(){
@@ -10,7 +10,6 @@ export default function Header(){
 function TrocarTema(){
     setTemaEscuro(!temaEscuro)
 }
-
     return (
         <header>
             <div>
