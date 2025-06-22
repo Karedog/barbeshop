@@ -11,7 +11,7 @@ export default function Header(){
 
 function TrocarTema(){
     setTemaEscuro(!temaEscuro)
-    if(temaEscuro){
+    if(!temaEscuro){
         document.querySelector('body').classList.add('tema_escuro')
         document.querySelector('body').classList.remove('tema_claro')
     }else{
@@ -27,8 +27,8 @@ function TrocarTema(){
                 <Image src={imgLogo} className={style.image_logo } alt="logo da barbearia, rosto com uma lamina em casa lado"></Image>
                 <button onClick={TrocarTema} className={style.button_tema}>
                     {temaEscuro? 
-                        <FiMoon className={style.icon} fill="white"/>:
-                        <GrSolaris className={style.icon}/>}
+                        <GrSolaris className={style.icon} fill="white"/>:
+                        <FiMoon className={style.icon} />}
                 </button>
             </div>
         </header>
