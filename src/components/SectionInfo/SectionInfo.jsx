@@ -3,7 +3,7 @@ import  style from "./SectionInfo.module.css"
 
 export default function SectionInfo(){
     return(
-        <section className={style.Section_info}>
+        <section>
             <div className={style.info_box}>
                 <h1>Bem-Vindo a Barbe Shop</h1>
                 <p>Nossa barbearia oferece profissionais de qualidade e

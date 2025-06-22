@@ -6,3 +6,13 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+.tema_claro{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+.tema_escuro{
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
